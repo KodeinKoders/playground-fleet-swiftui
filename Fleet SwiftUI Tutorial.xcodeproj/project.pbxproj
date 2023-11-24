@@ -37,6 +37,9 @@
 			children = (
 				7A0D2D422B10A0CE00FE8AE7 /* Fleet SwiftUI Tutorial */,
 				7A0D2D412B10A0CE00FE8AE7 /* Products */,
+				C8D7AD1A6629D6DC5A3110BC /* xcuserdata */,
+				C8D7A954B68C418C6C5EBDB4 /* .fleet */,
+				C8D7A2D4187A6F091A8EFB01 /* swiftpm */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +68,53 @@
 				7A0D2D4A2B10A0CF00FE8AE7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8D7A2D4187A6F091A8EFB01 /* swiftpm */ = {
+			isa = PBXGroup;
+			children = (
+				C8D7AB7474C06ACE35019820 /* configuration */,
+			);
+			name = swiftpm;
+			path = "Fleet SwiftUI Tutorial.xcodeproj/project.xcworkspace/xcshareddata/swiftpm";
+			sourceTree = "<group>";
+		};
+		C8D7A954B68C418C6C5EBDB4 /* .fleet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = .fleet;
+			sourceTree = "<group>";
+		};
+		C8D7AB47D36F66EFA42CA768 /* xcschemes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xcschemes;
+			sourceTree = "<group>";
+		};
+		C8D7AB7474C06ACE35019820 /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		C8D7AD1A6629D6DC5A3110BC /* xcuserdata */ = {
+			isa = PBXGroup;
+			children = (
+				C8D7AEAB7AA9DD2E9886E547 /* romain.xcuserdatad */,
+			);
+			name = xcuserdata;
+			path = "Fleet SwiftUI Tutorial.xcodeproj/project.xcworkspace/xcuserdata";
+			sourceTree = "<group>";
+		};
+		C8D7AEAB7AA9DD2E9886E547 /* romain.xcuserdatad */ = {
+			isa = PBXGroup;
+			children = (
+				C8D7AB47D36F66EFA42CA768 /* xcschemes */,
+			);
+			path = romain.xcuserdatad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +319,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fleet SwiftUI Tutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = 3Q928435FR;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -287,6 +338,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.kodein.ios.Fleet-SwiftUI-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,10 +350,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fleet SwiftUI Tutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = 3Q928435FR;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,6 +369,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.kodein.ios.Fleet-SwiftUI-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -13,12 +13,21 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, Kotlin community!")
         }
         .padding()
     }
 }
 
-#Preview {
-    ContentView()
+class ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+    #if DEBUG
+    @objc class func injected() {
+        let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+        windowScene?.windows.first?.rootViewController =
+            UIHostingController(rootView: ContentView())
+    }
+    #endif
 }

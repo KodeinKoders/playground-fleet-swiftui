@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "xcode-app",
+            "name": "Run on iPhone 15",
+            "buildTarget": {
+                "project": "Fleet SwiftUI Tutorial",
+                "target": "Fleet SwiftUI Tutorial",
+            },
+            "configuration": "Debug",
+            "destination": "iPhone 15 | iOS 17.0",
+        },
+        {
+            "type": "xcode-app",
+            "name": "Run on iPhone 14",
+            "buildTarget": {
+                "project": "Fleet SwiftUI Tutorial",
+                "target": "Fleet SwiftUI Tutorial",
+            },
+            "configuration": "Debug",
+            "destination": "iPhone 14 | iOS 17.0",
+        },
+        
+    ]
+}
